@@ -47,6 +47,8 @@ const (
 	T_unknown          Oid = 705
 	T_circle           Oid = 718
 	T__circle          Oid = 719
+	T_macaddr8         Oid = 774
+	T__macaddr8        Oid = 775
 	T_money            Oid = 790
 	T__money           Oid = 791
 	T_macaddr          Oid = 829
@@ -217,6 +219,8 @@ var TypeName = map[Oid]string{
 	T_unknown:          "UNKNOWN",
 	T_circle:           "CIRCLE",
 	T__circle:          "_CIRCLE",
+	T_macaddr8:         "MACADDR8",
+	T__macaddr8:        "_MACADDR8",
 	T_money:            "MONEY",
 	T__money:           "_MONEY",
 	T_macaddr:          "MACADDR",
